@@ -1,0 +1,49 @@
+#All files in top level dir
+/*.*
+
+#Hidden files and dir
+.*
+
+#Log files
+*.log
+*.log.*.bz
+*.log.*.bz2
+*.log.*.gz
+
+#Temporary and backup files
+*.tmp
+*.bak
+*.out
+*.sql
+*.gz
+*.tgz
+*.bz2
+*.zip
+
+#Any develpoment files and dirs
+tt*
+dev.*
+*.local
+
+#System temporary and cache files and dirs
+system/tmp/*
+system/cache/*
+system/run/compiled/*
+
+#Other system files and dirs
+mbox
+bin
+
+#Vendor
+vendor
+
+criteo.php
+gen-feeds.sh
+google_msk.php
+google_spb.php
+yandex_msk.php
+yandex_spb.php
+rocket.php
+yandex_snip_spb.php
+yandex_snip_msk.php
+avito_spb.php
